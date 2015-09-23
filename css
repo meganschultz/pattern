@@ -1,0 +1,57 @@
+/*#container{
+	width: 800px;
+	margin: auto;
+	}*/
+#one{
+	width: 250px;
+	height: 250px;
+	background: green;
+	position: absolute;
+	}
+#two{
+	width: 250px;
+	height: 250px;
+	background: yellow;
+	position: absolute;	
+	top: 258px;
+	}
+#three{
+	width: 250px;
+	height: 250px;
+	background: green;
+	position: absolute;	
+	top: 508px;
+	}	
+
+#go{
+	font-family: Verdana;
+	color: yellow;
+	font-size: 5em;
+	position: absolute;
+	margin-left: 300px;
+	text-align: center;
+	vertical-align: center;
+	margin-top: 10px;
+	}
+#pack{
+	font-family: Verdana;
+	color: green;
+	font-size: 5em;
+	position: absolute;
+	margin-left: 300px;
+	text-align: center;
+	vertical-align: center;
+	margin-top: 225px;
+	}
+#go2{
+	font-family: Verdana;
+	color: yellow;
+	font-size: 5em;
+	position: absolute;
+	margin-left: 300px;
+	text-align: center;
+	vertical-align: center;
+	margin-top: 500px;
+	}	
+	
+	
