@@ -1,0 +1,26 @@
+$(document).ready(function() {
+	
+	fadeOut ();
+	function fadeOut(){
+	$("#go").delay(1000).fadeOut("fast");
+	$("#pack").delay(2500).fadeOut("fast");
+	$("#go2").delay(4000).fadeOut("fast");
+	}
+	fadeIn ();
+	function fadeIn(){
+	$("#go2").delay(500).fadeIn("fast");	
+	$("#pack").delay(500).fadeIn("fast");
+	$("#go").delay(500).fadeIn("fast");
+	}
+	slide ();
+	function slide(){
+	$("#one").animate({left: "+700px"}, 2000);
+	$("#one").animate({left: "0px"}, 2000, slide);
+	$("#two").animate({left: "+700px"}, 2000);
+	$("#two").animate({left: "0px"}, 2000, slide);
+	$("#three").animate({left: "+700px"}, 2000);
+	$("#three").animate({left: "0px"}, 2000, slide);
+	}
+
+	
+});
